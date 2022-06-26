@@ -8,111 +8,161 @@
         --secondary-color: #2F303A;
 }  */
 
-body {
-        font-family: 'Roboto', sans-serif ;
-}
+/*.wrapper {
+       
+} */
 
-.wrapper {
-background-color: #fff;
-}
-
-     /*   -header- */
 .header {
-     width: 1260px;
-     margin: 0 auto;
-     height: 80px;
-     padding: 25px 25px 25px 100px;
-     display: flex;
-     align-items: center;
-}
-
-.list {
-list-style: none;
-display: flex;
-}
+        width: 1600px;
+        height: 80px;
+        background: #FFFFFF;
+        display: flex;
         
-.navigation {
-        margin-right: 100px;
 }
 
-.navigation-link {
-        color: #212121;
-        text-decoration: none;
-        font-size: 26px;
-        margin-right: 50px;
+.navigation {
+        display: flex;
+        margin-right: 200px;
 }
+
 
 .logo {
-        color: #2196F3;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        
 }
 
-.social {
-margin-right: 50px;
+.navigation-list {
+        display: flex;
+        margin-right: 50px;
+        
 }
 
-        /*  -main-
-                 -service- */
+.info {
+        display: flex;
+} 
+
+.navigation-item {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        
+}
+
+
+
+.navigation-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+        margin-right: 50px;
+        
+}
+
+.mailto,
+.tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+        margin-right: 50px;
+        
+}
+
+  /*main  service*/ 
+
 .service {
-width: 1600px;
-height: 600px;
-background: #2F303A;
-margin-bottom: 95px;
+        width: 1600px;
+        height: 600px;
+        background: #2F303A;
 }
 
 .service-list {
-        width: 696px;
+        width: 700px;
         height: 120px;
-        position: absolute;
-        font-family: 'Roboto';
+        
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
         text-align: center;
-        letter-spacing: 0.06em;
+        
         text-transform: uppercase;
         color: #FFFFFF;
-        padding-top: 200px;
-        margin-bottom: 30px;
 }
 
-.btn-list {
-        position: absolute;
-        width: 200px;
-        height: 50px;
-        left: 700px;
-        top: 430px;
-        background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-}
-            /*    -advantage- */
-.advantage {
-        width: 1170px;
-        height: 100px;
-        background: #E5E5E5;
+.btn {
+                background: #2196F3;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 30px;
         
-        margin-bottom: 95px;
-}
-             /*   -work- */
-.work {
-        Width: 1170px;
-        Height: 386px;
-        margin-bottom: 95px;
-}
-            /*    -Team- */
-.team {
-        Width: 1600px;
-        Height: 648px;
-        margin-bottom: 95px;
+                
+                color: #FFFFFF;
 }
 
-.team-text {
+
+
+.title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
         text-align: center;
+        color: #212121;
 }
-                    
-             /*   -footer- */
-.footer {
-        Width: 1600px;
-        Height: 252px;
+
+.title-list{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        
+        
+        text-transform: uppercase;
+text-decoration: none;
+        color: #212121;
         
 }
+
+.title-item {
+        display: flex;
+}
+
+.title-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+
+        color: #757575;
+} 
+
+.title-foto {
+        display: flex;
+}
+
+.team-foto {
+        display: flex;
+}
+
+
+
+.footer {
+        width: 1600px;
+        height: 260px;
+        background: #2F303A;
+}
+
+.address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;        
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.town {
+        
+        color: #fff;
+}
+
